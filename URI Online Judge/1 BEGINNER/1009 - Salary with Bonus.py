@@ -1,0 +1,6 @@
+name = input()
+salary = float(input())
+sell = float(input())
+bonus = salary+(sell/100*15)
+result = "{:.2f}".format(bonus)
+print("TOTAL = R$",result)
