@@ -84,4 +84,4 @@ p, q = map(int, input().split())
 answer = list(ascii_uppercase[:p]) 
 answer = merge_sort(answer) if p != 5 else sort5(answer) 
  
-print("! "+"".join(answer), flush=True) 
+print("! "+"".join(answer), flush=True)
